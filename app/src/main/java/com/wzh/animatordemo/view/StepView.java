@@ -1,4 +1,4 @@
-package com.wzh.animatordemo;
+package com.wzh.animatordemo.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -9,9 +9,11 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 
+import com.wzh.animatordemo.Utils;
+
 
 /**
- * 仿写QQ记步效果
+ * 仿写QQ计步效果
  */
 public class StepView extends View {
 

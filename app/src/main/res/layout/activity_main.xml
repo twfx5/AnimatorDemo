@@ -5,25 +5,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--    <com.wzh.animatordemo.CircleView-->
-<!--        android:id="@+id/view"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"/>-->
-
-<!--    <com.wzh.animatordemo.PointView-->
-<!--        android:id="@+id/view"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"/>-->
-
-<!--    <com.wzh.animatordemo.StepView-->
-<!--        android:id="@+id/view"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"/>-->
-
-    <com.wzh.animatordemo.FlipboardView
-        android:id="@+id/view"
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
-
 
 </LinearLayout>

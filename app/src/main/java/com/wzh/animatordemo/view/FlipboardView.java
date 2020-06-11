@@ -1,4 +1,4 @@
-package com.wzh.animatordemo;
+package com.wzh.animatordemo.view;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -9,6 +9,8 @@ import android.util.AttributeSet;
 import android.view.View;
 
 import androidx.annotation.Nullable;
+
+import com.wzh.animatordemo.Utils;
 
 /**
  * 仿写Flipboard的动画
