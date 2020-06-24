@@ -22,6 +22,16 @@ public class Utils {
         return BitmapFactory.decodeResource(resources, R.drawable.xiaoxin, options);
     }
 
+    public static Bitmap getBitmap(Resources resources, int width, int id) {
+        BitmapFactory.Options options = new BitmapFactory.Options();
+        options.inJustDecodeBounds = true;
+        BitmapFactory.decodeResource(resources, id, options);
+        options.inJustDecodeBounds = false;
+        options.inDensity = options.outWidth;
+        options.inTargetDensity = width;
+        return BitmapFactory.decodeResource(resources, id, options);
+    }
+
     // 返回camera Z轴的位置
     public static float getZForCamera() {
         return - 6 * Resources.getSystem().getDisplayMetrics().density;
