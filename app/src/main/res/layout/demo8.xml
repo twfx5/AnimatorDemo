@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.wzh.animatordemo.view.ColorTrackTextView
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:textSize="30"
+        app:textName="Hello World"
+        app:changeColor="@color/colorRed"
+        app:originColor="@color/colorAccent" />
+</RelativeLayout>

@@ -46,12 +46,12 @@ public class StepView extends View {
         paint.setStyle(Paint.Style.STROKE);
         paint.setStrokeWidth(Utils.dp2px(10));
         paint.setStrokeCap(Paint.Cap.ROUND);
-        canvas.drawArc(getWidth() / 2- LENGTH, getHeight() / 2 - LENGTH, getWidth() / 2 + LENGTH, getHeight() / 2 + LENGTH,
+        canvas.drawArc(getWidth() / 2f- LENGTH, getHeight() / 2f - LENGTH, getWidth() / 2f + LENGTH, getHeight() / 2f + LENGTH,
                 150, 240, false, paint);
 
         // 绘制动态的圆弧
         paint.setColor(Color.GREEN);
-        canvas.drawArc(getWidth() / 2- LENGTH, getHeight() / 2 - LENGTH, getWidth() / 2 + LENGTH, getHeight() / 2 + LENGTH,
+        canvas.drawArc(getWidth() / 2f- LENGTH, getHeight() / 2f - LENGTH, getWidth() / 2f + LENGTH, getHeight() / 2f + LENGTH,
                 150, stepRadius, false, paint);
 
         // 绘制步数文字
@@ -61,6 +61,6 @@ public class StepView extends View {
         paint.setColor(Color.RED);
         paint.getFontMetrics(fontMetrics);
         float offSet = (fontMetrics.ascent + fontMetrics.descent) / 2;
-        canvas.drawText(String.valueOf(stepRadius * progress), getWidth() / 2, getHeight() / 2 - offSet, paint);
+        canvas.drawText(String.valueOf(stepRadius * progress), getWidth() / 2f, getHeight() / 2f - offSet, paint);
     }
 }

@@ -14,6 +14,7 @@ import com.wzh.animatordemo.fragments.Demo4;
 import com.wzh.animatordemo.fragments.Demo5;
 import com.wzh.animatordemo.fragments.Demo6;
 import com.wzh.animatordemo.fragments.Demo7;
+import com.wzh.animatordemo.fragments.Demo8;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
 //        listFragment.add(new Demo4());
 //        listFragment.add(new Demo5());
 //        listFragment.add(new Demo6());
-        listFragment.add(new Demo7());
-//        listFragment.add(new Demo8());
+//        listFragment.add(new Demo7());
+        listFragment.add(new Demo8());
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         MyFragmentAdapter fragmentAdapter = new MyFragmentAdapter(fragmentManager);
