@@ -25,7 +25,7 @@ public class Demo8 extends Fragment {
         View view = inflater.inflate(R.layout.demo8,container,false);
 
         ColorTrackTextView trackTextView = view.findViewById(R.id.view);
-        ObjectAnimator objectAnimator = ObjectAnimator.ofFloat(trackTextView, "fraction", 1.1f);
+        ObjectAnimator objectAnimator = ObjectAnimator.ofFloat(trackTextView, "fraction", 1.0f);
         objectAnimator.setStartDelay(1000);
         objectAnimator.setDuration(1500);
         objectAnimator.start();

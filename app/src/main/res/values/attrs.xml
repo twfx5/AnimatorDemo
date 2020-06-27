@@ -3,7 +3,5 @@
     <declare-styleable name="ColorTrackTextView">
         <attr name="originColor" format="color"/>
         <attr name="changeColor" format="color"/>
-        <attr name="textName" format="string"/>
-        <attr name="textSize" format="integer"/>
     </declare-styleable>
 </resources>
